@@ -41,9 +41,9 @@ Cadastra um novo livro.
 **Requisição (JSON):**
 ```json
 {
-  "titulo": "Dom Casmurro",
-  "categoria": "Romance",
-  "autor": "Machado de Assis",
+  "titulo": "O Poder do Agora",
+  "categoria": "Autoajuda",
+  "autor": "Eckhart Tolle",
   "image_url": "https://link-da-imagem.com"
 }
 ```
@@ -65,10 +65,10 @@ Retorna todos os livros cadastrados.
 ```json
 [
   {
-    "id": 1,
-    "titulo": "Dom Casmurro",
-    "categoria": "Romance",
-    "autor": "Machado de Assis",
+    "id": 7,
+     "titulo": "O Poder do Agora",
+     "categoria": "Autoajuda",
+    "autor": "Eckhart Tolle",
     "image_url": "https://link-da-imagem.com"
   }
 ]
